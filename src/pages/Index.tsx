@@ -65,6 +65,46 @@ const Index: React.FC = () => {
         <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-background to-transparent"></div>
       </section>
 
+      {/* Section Featuring */}
+      <section className="pt-4 md:pt-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
+            <div className="img h-32 flex justify-center items-center">
+              {" "}
+              <img
+                className="aspect-video h-full object-contain"
+                src="/1.png"
+                alt=""
+              />
+            </div>
+            <div className="img h-32 flex justify-center items-center">
+              {" "}
+              <img
+                className="aspect-video h-full object-contain"
+                src="/2.png"
+                alt=""
+              />
+            </div>
+            <div className="img h-32 flex justify-center items-center">
+              {" "}
+              <img
+                className="aspect-video h-full object-contain"
+                src="/3.png"
+                alt=""
+              />
+            </div>
+            <div className="img h-32 flex justify-center items-center">
+              {" "}
+              <img
+                className="aspect-video h-full object-contain"
+                src="/4.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Section caractéristiques */}
       <section className="py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
